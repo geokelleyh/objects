@@ -2,7 +2,7 @@
 // Create a file named github_data.js
 // Copy the contents of github_data.js here in the course to your local file.
 // Your task it to use your knowledge of accessing property values and array indices to output the commit message for the push event with an id of 8030403992.
-console.log("Commit message for ID 8030403992 is", `${githubData}`)
+
 const githubData = [
   {
     "id": "8033299496",
@@ -4411,3 +4411,4 @@ const githubData = [
     }
   }
 ]
+console.log("Commit message for ID 8030403992 is", `${githubData}`)
