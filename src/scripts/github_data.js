@@ -4411,4 +4411,4 @@ const githubData = [
     }
   }
 ]
-console.log("Commit message for ID 8030403992 is", `${githubData}`)
+console.log("Commit message for ID 8030403992 is", `${githubData[6].payload.commits[0].message}`)
