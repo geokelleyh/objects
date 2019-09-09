@@ -3,16 +3,55 @@
 
 
 
+const cars = {
 
+    make : "Ford",
+    model: "Mustang",
+    year: "2015",
+    color: "red",
+}
 
 
 
 // Lightning Exercise 2: Given two options of data structures - array or object - which should you use? You need to store list of animal names in a shelter. The names are "Kippers", "Jack", "Gypsy", "Angus", "Seymour Bouts", and "Sharky".
-
-
+const animalNames = ["Kippers", "Jack", "Gypsy", "Angus", "Seymour Bouts", "Sharky"]
 
 // Lightning Exercise 3: Define an object for four family members, and put each object in an array named familyMembers. Each family member object that you create should have the same keys on them, but the values will be different.
+const familyMembers = [{
+    name: "George",
+    position: "Dad",
+    age: 56,
+    atHome: "true",
 
+},
+{
+    name: "Rosemary",
+    position: "Mom",
+    age: 51,
+    atHome: "true",
+
+},
+{
+    name: "Hannah",
+    position: "First Born",
+    age: 22,
+    atHome: "false",
+
+},
+{
+    name: "William",
+    position: "Middle Child",
+    age: 20,
+    atHome: "false",
+},
+{
+    name: "Parker",
+    position: "Youngest Child",
+    age: 5,
+    atHome: "true",
+
+},
+]
 
 
 // Lightning Exercises
